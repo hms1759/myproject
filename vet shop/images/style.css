@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding:80;
+    box-sizing: border-box;
+}
+.container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.head{
+    
+    grid-column: 1/4;
+    background-color: white;
+    position: relative;
+
+}
+.top-header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Address {
+    color: black;
+    font-style: italic;
+    
+}
+.ultop {
+    list-style-type: none;
+    display: flex;
+}
+
+.ultopli  {
+
+    margin-right: 10px;
+
+
+}
+.headline{
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+
+
+}
+.heading {
+    
+    position: relative;
+    top: 30px;
+}
+
+.header {
+    background-color: rgb(7, 82, 23);
+    display: flex;
+    justify-content: space-between;
+
+}
+.h3 {
+    color: black;
+    margin-left: 20px;
+}
+
+.h4
+{
+    color: black;
+    background-color: white;
+    font-weight: 300;
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    bottom: -60px;
+    left: 50px;
+}
+
+.h1 {
+    
+    color: black;
+    background-color: white;
+    font-weight: 900;
+    position: absolute;
+    font-size: 80px;
+    font-style: italic;
+    padding-right: 10px;
+    top:0px;
+
+}
+.ul-header {
+    list-style-type: none;
+    display: flex;
+    margin-right: 15px;
+    
+}
+.ul-header-li {
+    
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+.ul-header-li a{
+    padding: 7px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.HOME a{
+    
+    padding: 7px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(73, 138, 8);
+}
+.ul-header-li :hover {
+    background-color: rgb(73, 138, 8);
+    
+
+}
+
+.maincontainer {
+    grid-column: 1/4;
+}
+
+    
+
+.test {
+    font-style: oblique;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 50px;
+    
+}
